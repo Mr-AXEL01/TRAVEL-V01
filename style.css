@@ -228,6 +228,13 @@ footer .copyrightText{
     flex-wrap: wrap;
     z-index: 1;
 }
+.guides_container .card img{
+    max-width: 100%;
+    /* max-height: 100%; */
+    object-fit: cover;
+    /* height: 100%; */
+    /* width: 100%; */
+}
 .guides_container .card {
     position:relative;
     width: 280px;

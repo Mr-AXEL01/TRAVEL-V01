@@ -20,8 +20,9 @@
     </header>
     <main>
         <section class="guides">
-            <div class="guides_container">
-                <div class="card">
+            <div class="guides_container" >
+                <div class="card" data-tilt>
+                    <img src="./images/guides-profile/guide 1.jpg" alt="">
                     <div class="content">
                         <h3>Guide-1</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut rem earum sequi consequatur aperiam similique.</p>
@@ -107,5 +108,14 @@
             <p>2023-2024 My Log Travels. All Rights Reserved.</p>
         </div>
     </footer>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare": 1
+	});
+</script>
 </body>
 </html>
