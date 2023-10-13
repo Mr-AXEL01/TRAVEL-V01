@@ -330,50 +330,6 @@ footer .copyrightText{
     height: 100%;
 }
 
-/* .form_container {
-    background-color: #000000a3;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 20px;
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-
-input, select {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
-}
-
-button[type="submit"] {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-
-.text-center {
-    text-align: center;
-} */
-
 .form_container{
     display: flex;
     justify-content: center;
@@ -537,7 +493,7 @@ label.text-white{
     background: rgba(0, 255, 0, 0.663);
 }
 .btn-reset:hover{
-    background: rgba(0, 98, 255, 0.663);
+    background: rgba(2, 94, 241, 0.663);
 }
 ::placeholder{
     color: #fff;
@@ -655,3 +611,96 @@ label.text-white{
      font-weight: 500;
      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
  }
+
+ .flights_footer{
+    margin-top: 120px;
+}
+
+/* -----------------------------------------------------
+
+--------------------------------------------------------*/
+
+/* .about{
+    position: relative;
+    height: 80vh;
+    width: 80%;
+    background-size: cover;
+    padding: 10px 5px;
+    margin: 0 10%;
+    overflow-x: hidden;
+} */
+
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    height: 80vh;
+    padding-top: 60px;
+}
+
+.about-text {
+    text-align: center;
+    width: 40%;
+    height: 100%;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+
+.container-text h2{
+    font-size: 80px;
+}
+
+.container-text p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.about-container img{
+    position: absolute;
+    width: 600px;
+    height: 410px;
+    margin-top: 29px;
+    margin-left: 40px;
+}
+
+/* --------------------------------------------------
+
+-----------------------------------------------------*/
+.contact_body{
+    background: url(/images/backgrounds/flights_backround.jpg)no-repeat;
+    background-size: cover;
+}
+.contact-form {
+    width: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px rgba(35, 245, 228, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.contact-form h2 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-group {
+    text-align: center;
+}
+
+.contact .contact-group{
+    width: 100%;
+    padding: 20px 0;
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0;
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
