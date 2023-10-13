@@ -6,7 +6,7 @@
     <title>Flights</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="flights_body">
     <header>
         <nav>
             <ul class="links">
@@ -19,9 +19,147 @@
         <a href="#"><button class="cta">Contact Us</button></a>
     </header>
     <main>
+        <section class="booking_form">
+            <div class="form_container">
+                <form class="form-group">
+                    <h2 class="text-center">Travel Airline Booking Form :</h2>
+                    <div class="form">
+                        <div class="form_title">
+                            <h3 class="text-white">Booking Details</h3>
+                        </div>
+        
+                        <div class="input">
+                            <input type="text" class="input-group" placeholder="From">
+                            <input type="text" class="input-group" placeholder="To">
+                            <input type="date" class="input-group" placeholder="Departure Date">
+                            <input type="time" class="input-group" placeholder="Departure Time">
+                            <select class="input-group">
+                                <option value="">Preffered Airline</option>
+                                <option value="">Royal Air Maroc</option>
+                                <option value="">IndoGo</option>
+                                <option value="">SpaceJet</option>
+                            </select>
+                            <select class="input-group">
+                                <option value="">Preffered Seating</option>
+                                <option value="">Economy Class</option>
+                                <option value="">Business Class</option>
+                                <option value="">First Class</option>
+                            </select>
+                        </div>
+                        <div class="input2">
+                            <input type="number" class="input-group" placeholder="Adult">
+                            <input type="number" class="input-group" placeholder="Children(2-11years)">
+                            <input type="number" class="input-group" placeholder="Enfant(under 4years)">
+                        </div>
 
+                        <div class="input3">
+                            <span class="input-group">Select Your Fare :</span>
+                            <input type="radio" class="input-group" name="r">
+                            <label class="text-white" for="input-group">One Way</label>
+                            <input type="radio" class="input-group" name="r">
+                            <label class="text-white" for="input-group">Round Trip</label>    
+                        </div>
+
+                        <div class="input4">
+                            <input type="text" class="input-group" placeholder="Reutrn Date">
+                            <input type="text" class="input-group" placeholder="Reutrn Time">
+                            <input type="text" class="input-group1" placeholder="Any Message">
+                        </div>
+
+                        <div class="input5">
+                            <h3 class="text-white">Personal Details</h3>
+                        </div>
+
+                        <div class="input6">
+                            <input type="text" class="input-group" placeholder="Full Name">
+                            <input type="number" class="input-group" placeholder="Phone Number">
+                            <input type="email" class="input-group1" placeholder="Email">
+                        </div>
+
+                        <div class="buttons">
+                            <button type="submit" class="btn-submit">Book</button>
+                            <button type="rest" class="btn-reset">Clear</button>
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="flight">
+            <div class="flights_container">
+                <div class="flights_heading">
+                    <h2>Explore Our Flights Travel :</h2>
+                </div>
+                <div class="flights_card">
+                    <img src="/images/flight_destination/bahams.jpg" alt="flight">
+                    <div class="flight_content">
+                        <h3>Flight 1</h3>
+                        <br>
+                        <p>Departure: L.A</p>
+                        <p>Destination: Bahamas</p>
+                        <p>Price: $250</p>
+                        <a href="#">Book Now</a>
+                    </div>
+                </div>
+                <div class="flights_card">
+                    <img src="/images/flight_destination/tokyo.jpg" alt="flight">
+                    <div class="flight_content">
+                        <h3>Flight 2</h3>
+                        <br>
+                        <p>Departure: CasaBlanca</p>
+                        <p>Destination: Tokyo</p>
+                        <p>Price: $1500</p>
+                        <a href="#">Book Now</a>
+                    </div>
+                </div>
+                <div class="flights_card">
+                    <img src="/images/flight_destination/bahams.jpg" alt="flight">
+                    <div class="flight_content">
+                        <h3>Flight 1</h3>
+                        <br>
+                        <p>Departure: L.A</p>
+                        <p>Destination: Bahamas</p>
+                        <p>Price: $250</p>
+                        <a href="#">Book Now</a>
+                    </div>
+                </div>
+                <div class="flights_card">
+                    <img src="/images/flight_destination/bahams.jpg" alt="flight">
+                    <div class="flight_content">
+                        <h3>Flight 1</h3>
+                        <br>
+                        <p>Departure: L.A</p>
+                        <p>Destination: Bahamas</p>
+                        <p>Price: $250</p>
+                        <a href="#">Book Now</a>
+                    </div>
+                </div>
+                <div class="flights_card">
+                    <img src="/images/flight_destination/bahams.jpg" alt="flight">
+                    <div class="flight_content">
+                        <h3>Flight 1</h3>
+                        <br>
+                        <p>Departure: L.A</p>
+                        <p>Destination: Bahamas</p>
+                        <p>Price: $250</p>
+                        <a href="#">Book Now</a>
+                    </div>
+                </div>
+                <div class="flights_card">
+                    <img src="/images/flight_destination/bahams.jpg" alt="flight">
+                    <div class="flight_content">
+                        <h3>Flight 1</h3>
+                        <br>
+                        <p>Departure: L.A</p>
+                        <p>Destination: Bahamas</p>
+                        <p>Price: $250</p>
+                        <a href="#">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
+    <footer class="flights_footer">
         <div class="F-container">
             <div>
                 <h2>My Log <br> Travels</h2>
@@ -54,7 +192,7 @@
             </div>
         </div>
         <div class="copyrightText">
-            <p>2023-2024 My Log Travels. All Rights Reserved.</p>
+            <p> © 2023-2024 My Log Travels. All Rights Reserved.</p>
         </div>
     </footer>
 </body>

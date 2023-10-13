@@ -19,6 +19,13 @@ a {
 .cta {
     font-family: "poppins", sans-serif;
     font-weight: 900;
+    background: transparent;
+    cursor: pointer;
+}
+.cta:hover{
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+
 }
 
 nav {
@@ -59,7 +66,7 @@ button {
     border-radius: 7px;
     font-size: 1rem;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    /* transition: all 0.3s ease 0s; */
 }
 
 body {
@@ -123,6 +130,8 @@ body {
 -----------------------------------------------------*/
 
 footer{
+    background: url(/images/backgrounds/footer_background.png)no-repeat;
+    background-size: cover;
     position: absolute;
     left: -13%;
     width: 100vw;
@@ -188,10 +197,16 @@ footer .copyrightText{
     padding-top: 45px;
 }
 
-/* --------------------------------------- 
+/* ---------------------------------------------
                    guides
---------------------------------------- */
+----------------------------------------------- */
 
+.guides_body{
+    background:url(/images/backgrounds/guides_backround.jpg)no-repeat;
+    background-size: cover;
+    height: 200vh;
+    /* background-clip: border-box; */
+}
 .guides{
    display: flex;
    justify-content: center;
@@ -228,10 +243,10 @@ footer .copyrightText{
 .guides_container h2 {
     position: absolute;
     top: 20px;
-    left: 32%;
-    font-size: 2rem;
-    color: #000000;
-    background: rgba(181, 174, 174, 0.152); 
+    left: 23%;
+    font-size: 3rem;
+    color: #ffffff;
+    /* background: rgba(181, 174, 174, 0.152);  */
     padding: 10px; 
 }
 .guides_container .card img{
@@ -249,7 +264,7 @@ footer .copyrightText{
     position:relative;
     flex-direction: column;
     width: 280px;
-    height: 430px;
+    height: 420px;
     margin: 30px;
     box-shadow: 20px 20px 50px rgba(0, 0 , 0, 0.5);
     border-radius: 15px;
@@ -303,3 +318,340 @@ footer .copyrightText{
 .guides_footer{
     margin-top: 150px;
 }
+
+/* ----------------------------------------------
+                     flights
+-------------------------------------------------*/
+
+.flights_body{
+    background:url(/images/backgrounds/flights_backround.jpg);
+    backdrop-filter: blur(3px);
+    background-size: cover;
+    height: 100%;
+}
+
+/* .form_container {
+    background-color: #000000a3;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+input, select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.text-center {
+    text-align: center;
+} */
+
+.form_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.form_container h2{
+    /* justify-content: center;
+    text-align: center;
+    padding: 20px; */
+    position: absolute;
+    top: 70px;
+    left: 20%;
+    font-size: 3rem;
+    color: #fbfcff;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding: 30px; 
+}
+.form{
+    justify-content:center;
+    background-color: rgba(22, 20, 20, 0.566);
+    box-shadow: 2px 2px 15px #3399ff;
+    border-radius: 20px;
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+.form_container .form_title{
+    display: flex;
+    /* position: relative; */
+    justify-content: center;
+    /* text-align: center; */
+    padding: 20px;
+    font-weight: 600;
+    color: white
+}
+.form_container .form_title h3{
+    position: relative;
+    width: 150px;
+    justify-content: center;
+    border-bottom: 2px solid #3399ff;
+    border-top: 2px solid #3399ff;
+    border-radius: 20px;
+    padding: 10px;
+}
+.input .input-group{
+    color: #ffffff;
+    width: 300px;
+    margin: 10px;
+    /* border: none; */
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+}
+.input2 .input-group{
+    color: #fff;
+    text-align: center;
+    width: 195px;
+    margin: 20px 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+}
+.input3 .input-group{
+    margin-left: 50px;
+    color: #1388e7e8;
+    font-weight: 600;
+    margin: 30px;
+}
+label.text-white{
+    color: #fff !important;
+}
+.input4 .input-group{
+    width: 300px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+}
+.input4 .input-group1{
+    width: 615px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+}
+.input5{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.input5 h3{
+    position: relative;
+    width: 200px;
+    justify-content: center;
+    border-bottom: 2px solid #3399ff;
+    border-top: 2px solid #3399ff;
+    border-radius: 15px;
+    padding: 10px;
+}
+.input6 .input-group{
+    width: 300px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+}
+.input6 .input-group1{
+    width: 615px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-color: #fff;
+}
+.btn-submit{
+    position: relative;
+    border: none;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(0, 255, 0, 0.363);
+    cursor: pointer;
+}
+.btn-reset{
+    position: relative;
+    border: none;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(0, 98, 255, 0.363);
+    cursor: pointer;
+}
+.btn-submit:hover{
+    background: rgba(0, 255, 0, 0.663);
+}
+.btn-reset:hover{
+    background: rgba(0, 98, 255, 0.663);
+}
+::placeholder{
+    color: #fff;
+    opacity: 0.6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+
+    
+}
+.flights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ }
+ .flights::before{
+     content:'';
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     clip-path: circle(30% at right 70%);
+ }
+ .flights::after{
+     content:'';
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     clip-path: circle(20% at 10% 10%);
+ }
+ .flights_container{
+     position:relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     z-index: 1;
+     padding-top: 25px;
+ }
+ .flights_container h2 {
+     position: absolute;
+     top: 20px;
+     left: 20%;
+     font-size: 3.5rem;
+     color: #fbfcff;
+     padding: 10px; 
+ }
+ .flights_container .flights_card img{
+     max-width: 100%;
+     max-height: 50%;
+     margin-top: -80px;
+     margin-bottom: -10px;
+     /* opacity: 0;
+     transition: 0.5s; */
+ }
+ /* .guides_container .card img:hover{
+     opacity: 1;
+ } */
+ .flights_container .flights_card {
+     position:relative;
+     flex-direction: column;
+     width: 280px;
+     height: 420px;
+     margin: 30px;
+     box-shadow: 20px 20px 50px rgba(0, 0 , 0, 0.5);
+     border-radius: 15px;
+     background: rgba(255, 255 , 255, 0.1);
+     overflow: hidden;
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     border-top: 1px solid rgba(255, 255, 255, 0.5);
+     border-left: 1px solid rgba(255, 255, 255, 0.5);
+     backdrop-filter: blur(5px);
+     top: 100px;
+ }
+ .flights_container .flights_card .flight_content{
+     padding: 10px;
+     margin-top: -36px;
+     text-align: center;
+     transform: translateY(100px);
+     /* ===the line under this one is the key to use a great animation=====*/
+     /* opacity: 0; */
+     transition: 0.5s;
+     height: 50%;
+ }
+ /*----- if we use this comment and the line 266 it will use a really beautifull animation ----*/
+ 
+ /* .guides_container .card:hover .content{
+     transform: translateY(100px);
+     opacity: 1;
+ } */
+ .flights_container .flights_card .flight_content h3{
+     font-size: 1.5rem;
+     z-index: 1;
+ }
+ .flights_container .flights_card .flight_content p{
+     font-size: 0.9em;
+     font-weight: 300;
+ 
+ }
+ .flights_container .flights_card .flight_content a{
+     position: relative;
+     display: inline-block;
+     padding: 8px 20px;
+     margin-top: 15px;
+     background: #fff;
+     color: #000;
+     border-radius: 20px;
+     text-decoration: none;
+     font-weight: 500;
+     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+ }
