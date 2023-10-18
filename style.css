@@ -130,7 +130,7 @@ body {
 -----------------------------------------------------*/
 
 footer{
-    background: url(/images/backgrounds/footer_background.png)no-repeat;
+    background: url(images/backgrounds/footer_background.png)no-repeat;
     background-size: cover;
     position: absolute;
     left: -13%;
@@ -178,9 +178,7 @@ footer .F-container ul {
     flex-direction: row;
     width: 90%;
 }
-/* footer .F-container ul li {
-    font-weight: 200;
-} */
+
 footer .F-container a{
     color: rgb(16, 13, 13);
     padding: 2px 2px;
@@ -202,7 +200,7 @@ footer .copyrightText{
 ----------------------------------------------- */
 
 .guides_body{
-    background:url(/images/backgrounds/guides_backround.jpg)no-repeat;
+    background:url(images/backgrounds/guides_backround.jpg)no-repeat;
     background-size: cover;
     height: 200vh;
     /* background-clip: border-box; */
@@ -324,7 +322,7 @@ footer .copyrightText{
 -------------------------------------------------*/
 
 .flights_body{
-    background:url(/images/backgrounds/flights_backround.jpg);
+    background:url(images/backgrounds/flights_backround.jpg);
     backdrop-filter: blur(3px);
     background-size: cover;
     height: 100%;
@@ -617,18 +615,10 @@ label.text-white{
 }
 
 /* -----------------------------------------------------
-
+                         about
 --------------------------------------------------------*/
 
-/* .about{
-    position: relative;
-    height: 80vh;
-    width: 80%;
-    background-size: cover;
-    padding: 10px 5px;
-    margin: 0 10%;
-    overflow-x: hidden;
-} */
+
 
 
 .about-container {
@@ -666,10 +656,10 @@ label.text-white{
 }
 
 /* --------------------------------------------------
-
+                      contact
 -----------------------------------------------------*/
 .contact_body{
-    background: url(/images/backgrounds/flights_backround.jpg)no-repeat;
+    background: url(images/backgrounds/flights_backround.jpg)no-repeat;
     background-size: cover;
 }
 .contact-form {
